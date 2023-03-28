@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg"
 import meter2 from "../assets/img/meter2.svg"
 import meter3 from "../assets/img/meter3.svg"
-import colorSharp from "../assets/img/color-sharp.png"
+// import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
     const responsive = {
@@ -35,32 +35,46 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
+                                About me
+                            </h2>
+                            <p>My name is Leonel Abrante, I am a Informatic engineer from Unitec in Venezuela. I started learning web programming since 2020. Soft skills: self-taught, teamwork, flexibility, attention to details.</p>
+                            <h2>
                                 Skills
                             </h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat culpa voluptatem molestiae, veritatis similique excepturi veniam ipsam adipisci corporis pariatur numquam modi aliquid sunt omnis. Sint, ut excepturi. Doloremque, maiores.</p>
+
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter2} alt="" />
                                     <h5>Web Developer</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5>Brand Identify</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter2} alt="" />
                                     <h5>javaScript</h5>
                                 </div>
+
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>mobile first</h5>
+                                    <img src={meter3} alt="" />
+                                    <h5>HTML & CSS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="" />
+                                    <h5>SQL</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="" />
+                                    <h5>Angular</h5>
+                                </div>
+                               
+                                <div className="item">
+                                    <img src={meter1} alt="" />
+                                    <h5>Git & Github</h5>
                                 </div>
                             </Carousel>
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
+            {/* <img className="background-image-left" src={colorSharp} alt="" /> */}
         </section>
     )
 }
