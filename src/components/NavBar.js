@@ -59,8 +59,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/leonel-abrante-4a9726206/"><img src={navIcon1} alt='' /></a>
-                            <a href="https://github.com/ljat11"><img src={navIcon4} alt='' /></a>
+                            <a href="https://www.linkedin.com/in/leonel-abrante-4a9726206/" target="_blank"><img src={navIcon1} alt='' /></a>
+                            <a href="https://github.com/ljat11" target="_blank"><img src={navIcon4} alt='' /></a>
                             {/* <a href="#"><img src={navIcon3} alt='' /></a> */}
                         </div>
                         <Toaster position="top-center"
