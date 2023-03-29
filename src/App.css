@@ -293,11 +293,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+.banner  img {
 position: relative;
-top: 5%;
+padding: 20px;
+/* top:10%; */
 left: 15%;
-width: 75%;
+width: 65%;
 /* animation: updown 3s linear infinite; */
 animation: rotation 4s infinite linear;
 ;
