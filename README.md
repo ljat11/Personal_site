@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Leonel Abrante</h1>
-<h3 align="center">A passionate frontend developer from Venezuela</h3>
+<h3 align="center">A passionate frontend developer</h3>
 
-- 🌱 I’m currently learning **React, VueJS, nodeJS,and python coming soon**
+- 🌱 I’m currently learning **React, VueJS, nodeJS**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
